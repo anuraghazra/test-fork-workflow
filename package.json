@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anuraghazra/test-fork-workflow/issues"
   },
-  "homepage": "https://github.com/anuraghazra/test-fork-workflow#readme"
+  "homepage": "https://github.com/anuraghazra/test-fork-workflow#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
