@@ -1,0 +1,19 @@
+{
+  "name": "test-fork-workflow",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./pre-deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuraghazra/test-fork-workflow.git"
+  },
+  "author": "Anurag Hazra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anuraghazra/test-fork-workflow/issues"
+  },
+  "homepage": "https://github.com/anuraghazra/test-fork-workflow#readme"
+}
