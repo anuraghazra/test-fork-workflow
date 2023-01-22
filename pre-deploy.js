@@ -13,3 +13,5 @@ const updated = vercelJsonContent.replace(
 );
 
 fs.writeFileSync(vercelFile, updated, "utf-8");
+
+console.log(fs.readFileSync(vercelFile, "utf-8"))
