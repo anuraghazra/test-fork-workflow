@@ -4,7 +4,7 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "build": "node ./pre-deploy.js"
+    "prep-deploy": "node ./pre-deploy.js"
   },
   "repository": {
     "type": "git",
