@@ -2,6 +2,7 @@ const fs = require("fs");
 
 require("dotenv").config();
 
+console.log('HAS_VERCEL_PRO', process.env.HAS_VERCEL_PRO);
 if (process.env.HAS_VERCEL_PRO === "false") return;
 
 const vercelFile = "./vercel.json";
