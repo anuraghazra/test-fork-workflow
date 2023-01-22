@@ -12,7 +12,11 @@ const updated = vercelJsonContent.replace(
   `10`,
   `30`
 );
+const updated2 = updated.replace(
+  `https://github.com/anuraghazra/github-readme-stats`,
+  `https://anuraghazra.dev`
+);
 
-fs.writeFileSync(vercelFile, updated, "utf-8");
+fs.writeFileSync(vercelFile, updated2, "utf-8");
 
 console.log(fs.readFileSync(vercelFile, "utf-8"))
